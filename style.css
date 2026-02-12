@@ -1,0 +1,84 @@
+/*
+Theme Name: Humanity Charity
+Theme URI: https://example.com/
+Author: ChatGPT
+Author URI: https://example.com/
+Description: قالب ووردبريس بسيط لجمعية خدمات إنسانية (RTL) مع صفحات أساسية وقائمة وزر تبرع.
+Version: 1.0.0
+License: GPLv2 or later
+Text Domain: humanity-charity
+Tags: nonprofit, charity, rtl-language-support, one-column, two-columns, custom-menu
+*/
+
+:root{
+  --hc-green:#0B6E4F;
+  --hc-dark:#111;
+  --hc-bg:#f7f7f7;
+  --hc-card:#fff;
+  --hc-text:#222;
+  --hc-muted:#6b7280;
+  --hc-radius:14px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  font-family: Tahoma, Arial, "Cairo", "Tajawal", sans-serif;
+  direction: rtl;
+  text-align: right;
+  background: var(--hc-bg);
+  margin:0;
+  color:var(--hc-text);
+}
+a{color:var(--hc-green);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:1100px;margin:auto;padding:18px}
+.site-header{background:var(--hc-green);color:#fff}
+.site-header .brand{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 0}
+.site-title{margin:0;font-size:22px}
+.site-title a{color:#fff;text-decoration:none}
+.site-tagline{margin:0;color:rgba(255,255,255,.85);font-size:13px}
+
+.nav{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:10px;flex-wrap:wrap}
+.nav li{margin:0}
+.nav a{display:inline-block;color:#fff;padding:8px 10px;border-radius:10px;font-weight:700}
+.nav a:hover{background:rgba(255,255,255,.12);text-decoration:none}
+.donate-btn{background:#fff;color:var(--hc-green)!important;border-radius:12px;padding:10px 12px;font-weight:800}
+.donate-btn:hover{background:rgba(255,255,255,.92)}
+
+.hero{background:var(--hc-card);border-radius:var(--hc-radius);padding:26px;margin-top:16px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.hero h1{margin:0 0 10px 0;font-size:30px;line-height:1.2}
+.hero p{margin:0 0 14px 0;color:var(--hc-muted);font-size:16px}
+.btn{
+  display:inline-block;background:var(--hc-green);color:#fff;padding:12px 18px;border-radius:12px;
+  text-decoration:none;font-weight:800
+}
+.btn:hover{filter:brightness(.96);text-decoration:none}
+
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:16px}
+.card{background:var(--hc-card);border-radius:var(--hc-radius);padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.card h3{margin:0 0 8px 0}
+.small{color:var(--hc-muted);font-size:14px;margin:0}
+
+.stat{display:flex;align-items:flex-start;gap:10px}
+.stat .num{font-size:22px;font-weight:900}
+.stat .lbl{color:var(--hc-muted);font-size:13px}
+
+.page-title{margin:18px 0 10px 0}
+.content{background:var(--hc-card);border-radius:var(--hc-radius);padding:18px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+
+.posts .post-item{margin-bottom:12px}
+.posts .post-item h3{margin:0 0 6px 0}
+.posts .post-item p{margin:0;color:var(--hc-muted)}
+
+.footer{margin-top:22px;background:var(--hc-dark);color:#fff;padding:18px;text-align:center}
+.footer small{color:rgba(255,255,255,.8)}
+
+.notice{background:#fff3cd;border:1px solid #ffeeba;padding:12px;border-radius:12px}
+hr{border:none;border-top:1px solid rgba(0,0,0,.08);margin:18px 0}
+
+@media (max-width:720px){
+  .hero h1{font-size:24px}
+}
