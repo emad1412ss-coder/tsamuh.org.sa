@@ -1,232 +1,0 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>جمعية التسامح للتنمية الأسرية | الرئيسية</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-
-<!-- Topbar -->
-<div class="topbar">
-  <div class="container">
-    <div class="row">
-      <div class="links">
-        <span class="badge">📞 0550000000</span>
-        <span class="badge">✉️ info@altasameh.org.sa</span>
-        <span class="badge">📍 المملكة العربية السعودية</span>
-      </div>
-      <div class="links">
-        <a class="badge" href="#" aria-label="X">X</a>
-        <a class="badge" href="#" aria-label="Instagram">IG</a>
-        <a class="badge" href="#" aria-label="YouTube">YT</a>
-        <a class="badge" href="#" aria-label="WhatsApp">WhatsApp</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Header -->
-<header class="header">
-  <div class="container">
-    <div class="row">
-      <a class="brand" href="index.html">
-        <span class="logo" aria-hidden="true"></span>
-        <span class="name">
-          جمعية التسامح
-          <small>للتنمية الأسرية</small>
-        </span>
-      </a>
-
-      <nav class="nav" aria-label="القائمة الرئيسية">
-        <a data-nav href="index.html">الرئيسية</a>
-        <a data-nav href="about.html">من نحن</a>
-        <a data-nav href="services.html">خدماتنا</a>
-        <a data-nav href="gallery.html">المعرض</a>
-        <a data-nav href="news.html">الأخبار والفعاليات</a>
-        <a data-nav href="volunteer.html">التطوع</a>
-        <a data-nav href="partners.html">الشراكات</a>
-        <a data-nav href="governance.html">الحوكمة</a>
-        <a data-nav href="donate.html">التبرع</a>
-        <a data-nav href="contact.html">اتصل بنا</a>
-      </nav>
-
-      <div class="actions">
-        <a class="btn ghost" href="volunteer.html">🤝 تطوّع معنا</a>
-        <a class="btn primary" href="donate.html">💝 تبرع الآن</a>
-        <button class="btn burger" data-burger aria-label="فتح القائمة">☰</button>
-      </div>
-    </div>
-
-    <!-- Mobile nav -->
-    <nav class="mobile-nav" data-mobile-nav hidden aria-label="القائمة للجوال">
-      <a data-nav href="index.html">الرئيسية</a>
-      <a data-nav href="about.html">من نحن</a>
-      <a data-nav href="services.html">خدماتنا</a>
-      <a data-nav href="gallery.html">المعرض</a>
-      <a data-nav href="news.html">الأخبار والفعاليات</a>
-      <a data-nav href="volunteer.html">التطوع</a>
-      <a data-nav href="partners.html">الشراكات</a>
-      <a data-nav href="governance.html">الحوكمة</a>
-      <a data-nav href="donate.html">التبرع</a>
-      <a data-nav href="contact.html">اتصل بنا</a>
-    </nav>
-  </div>
-</header>
-
-<!-- Hero -->
-<section class="hero">
-  <div class="container">
-    <div class="grid">
-      <div>
-        <h1>معًا نبني أسرة متماسكة ومجتمعًا متكافلًا</h1>
-        <p>
-          جمعية التسامح للتنمية الأسرية تعمل على دعم الأسرة وتمكينها عبر برامج تنموية وإنسانية
-          تحقق أثرًا مستدامًا، مع التزام كامل بالشفافية والحوكمة.
-        </p>
-        <div style="display:flex; gap:10px; flex-wrap:wrap;">
-          <a class="btn primary" href="donate.html">💝 تبرع الآن</a>
-          <a class="btn" href="contact.html">📞 تواصل معنا</a>
-          <a class="btn" href="governance.html">🏛️ الحوكمة</a>
-        </div>
-        <div style="margin-top:14px; color:var(--muted); font-size:14px; line-height:1.9;">
-          <strong>رسمي ومرخّص</strong> — نسعى لصناعة أثر ملموس للأسر والمجتمع.
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="assets/img/hero.jpg" alt="صورة نشاط إنساني" />
-        <div class="meta">
-          <span>👨‍👩‍👧‍👦 برامج أسرية</span>
-          <span>✅ شفافية • ✅ أثر</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- About Intro -->
-<section class="section">
-  <div class="container">
-    <div class="section head">
-      <h2>من نحن</h2>
-      <p>نبذة مختصرة عن الجمعية ورسالتها</p>
-    </div>
-    <div class="card">
-      <h3>جمعية غير ربحية لخدمة الأسرة</h3>
-      <p>
-        نعمل على تقديم برامج تنموية واجتماعية تساعد الأسرة على الاستقرار وتطوير مهاراتها،
-        ونؤمن أن الاستثمار في الأسرة هو الاستثمار الأهم لبناء مجتمع قوي.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- Services -->
-<section class="section">
-  <div class="container">
-    <div class="section head">
-      <h2>خدماتنا</h2>
-      <p>برامج تنموية وإنسانية منظمة</p>
-    </div>
-    <div class="cards">
-      <div class="card">
-        <div class="icon">★</div>
-        <h3>دعم الأسر</h3>
-        <p>مبادرات لدعم الأسر وتحقيق الاستقرار وفق معايير واضحة.</p>
-      </div>
-      <div class="card">
-        <div class="icon">★</div>
-        <h3>تمكين وتنمية</h3>
-        <p>برامج تدريبية وتنموية لرفع الكفاءة وتعزيز الاعتماد الذاتي.</p>
-      </div>
-      <div class="card">
-        <div class="icon">★</div>
-        <h3>مبادرات مجتمعية</h3>
-        <p>مبادرات موسمية وشراكات تعزز التكافل والأثر المستدام.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Stats -->
-<section class="section">
-  <div class="container">
-    <div class="section head">
-      <h2>الأثر بالأرقام</h2>
-      <p>مؤشرات مختصرة (قيم تجريبية)</p>
-    </div>
-    <div class="stats">
-      <div class="stat"><div class="num">+1200</div><div class="label">أسرة مستفيدة</div></div>
-      <div class="stat"><div class="num">+45</div><div class="label">برنامج ومبادرة</div></div>
-      <div class="stat"><div class="num">+320</div><div class="label">متطوع/ة</div></div>
-      <div class="stat"><div class="num">+18</div><div class="label">شريك داعم</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- Gallery Preview -->
-<section class="section">
-  <div class="container">
-    <div class="section head">
-      <h2>المعرض</h2>
-      <p>لقطات من فعالياتنا (صور مؤقتة)</p>
-    </div>
-    <div class="gallery">
-      <img src="assets/img/placeholder-1.jpg" alt="صورة 1" />
-      <img src="assets/img/placeholder-2.jpg" alt="صورة 2" />
-      <img src="assets/img/placeholder-3.jpg" alt="صورة 3" />
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="section">
-  <div class="container">
-    <div class="cta">
-      <div>
-        <h2 style="margin:0">مساهمتك تصنع فرقًا حقيقيًا</h2>
-        <p>تبرعك يدعم برامج الأسرة ويعزز الأثر المستدام بشفافية كاملة.</p>
-      </div>
-      <div style="display:flex; gap:10px; flex-wrap:wrap;">
-        <a class="btn primary" href="donate.html">تبرع الآن</a>
-        <a class="btn" href="volunteer.html">التطوع</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="grid">
-      <div>
-        <h4>جمعية التسامح للتنمية الأسرية</h4>
-        <p>جمعية رسمية مرخصة تعمل على تنمية الأسرة ودعمها عبر برامج إنسانية وتنموية.</p>
-      </div>
-      <div>
-        <h4>روابط سريعة</h4>
-        <p><a href="about.html">من نحن</a><br><a href="services.html">خدماتنا</a><br><a href="governance.html">الحوكمة</a></p>
-      </div>
-      <div>
-        <h4>التواصل</h4>
-        <p>📞 0550000000<br>✉️ info@altasameh.org.sa<br>📍 السعودية</p>
-      </div>
-      <div>
-        <h4>التبرع</h4>
-        <p>ادعم برامجنا عبر صفحة التبرع.<br><a href="donate.html">اذهب للتبرع</a></p>
-      </div>
-    </div>
-
-    <div class="bottom">
-      <span>© <span id="y"></span> جميع الحقوق محفوظة</span>
-      <span><a href="privacy.html" style="color:inherit">سياسة الخصوصية</a></span>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/js/main.js"></script>
-<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-</body>
-</html>
